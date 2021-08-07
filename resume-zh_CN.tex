@@ -1,0 +1,81 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{王大鹏}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{(+86) 123-4567-890}{xxxxxxx@gmail.com}{xx工程师}{https://github.com/ditingdapeng}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+\section{个人总结}
+本人在校成绩优秀、乐观向上，工作负责、自我驱动力强、热爱尝试新事物，性格皮实。对编程技术及应用解决方案有浓厚兴趣。\textbf{现任职于XX。}
+
+% \section{\faGraduationCap\ 教育背景}
+\section{教育背景}
+\datedsubsection{\textbf{XX大学},专业,\textit{在读硕士研究生}}{时间 - 时间}
+\ \textbf{排名前10\%)},奖学金 ,预计xx年x月毕业
+\datedsubsection{\textbf{XX大学},专业,\textit{学士}}{时间 - 时间}
+\ \textbf{排名前5\%)},奖学金
+
+% \section{\faCogs\ IT 技能}
+\section{技术能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item \textbf{技术能力1}: Java、Python, SQL,Shell
+  \item \textbf{技术能力2}: Hadoop/spark/Hive
+\end{itemize}
+
+% \end{itemize}
+
+\section{实习经历}
+\datedsubsection{\textbf{公司1 | 部门}, 职位工程师}{时间1-时间2}
+\begin{itemize}
+  \item 负责xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  \item 负责xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\end{itemize}
+
+\datedsubsection{\textbf{公司2 | 部门}, 职位工程师}{时间1-时间2}
+\begin{itemize}
+  \item 负责xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  \item 负责xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\end{itemize}
+
+\datedsubsection{\textbf{公司3 | 部门}, 职位工程师}{时间1-时间2}
+\begin{itemize}
+  \item 负责xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  \item 负责xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\end{itemize}
+
+\section{竞赛获奖/项目}
+\begin{itemize}[parsep=0.2ex]
+  \item XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \textbf{等级}( \textit{http://www.xxxxx.com/} ),时间
+  \item XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \textbf{等级}( \textit{http://www.xxxxx.com/} ),时间
+  \item 个人博客：\textit{http://www.xxxxx.com/}
+\end{itemize}
+
+\section{社区参与/实践其他}
+\begin{itemize}[parsep=0.2ex]
+  \item XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  \item XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  \item XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  \item XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
