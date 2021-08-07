@@ -6,7 +6,9 @@
 
 ### 效果输出
 
-![image-20210807160754509](C:\Users\dapeng\AppData\Roaming\Typora\typora-user-images\image-20210807160754509.png)
+![image](./resume-example.png)
+
+
 
 ## 使用方法
 
